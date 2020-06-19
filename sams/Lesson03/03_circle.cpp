@@ -6,14 +6,13 @@ const float pi = 3.141592;
 void CalculateAreaAndCircumference() {
 	unsigned int radius = 0;
 
-	cout << "Enter a positive integer as the radius of the circle: " << endl;
+	cout << "Enter a positive integer as the radius of the circle: "
+		<< endl;
+
 	cin >> radius;
 
-	float area = 0;
-	area = radius * radius * pi;
-
-	float circumference = 0;
-	circumference = 2 * radius * pi;
+	float area{ radius * radius * pi };
+	float circumference{ 2 * radius * pi };
 
 	cout << "The area of the circle is: " << area << endl
 		<< "The circumference of the circle is: " << circumference << endl;
