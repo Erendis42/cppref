@@ -1,4 +1,7 @@
 # cppref
+
+#### (just me tryna show off some c++ skills)
+
 - [Sams Teach Yourself C++ in One Hour a Day - exercises](https://github.com/Erendis42/cppref/tree/master/sams)
 
     - [Lesson 3](https://github.com/Erendis42/cppref/tree/master/sams/Lesson03)
