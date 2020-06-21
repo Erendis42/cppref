@@ -8,3 +8,9 @@
         - [Exercise 3:](https://github.com/Erendis42/cppref/blob/master/sams/Lesson03/03_circle.cpp)
 
            Write a program to calculate the area and circumference of a circle where the radius is fed by the user.
+
+    - [Lesson 5](https://github.com/Erendis42/cppref/tree/master/sams/Lesson05)
+        - [Exercise 3:](https://github.com/Erendis42/cppref/blob/master/sams/Lesson05/03_bitwise.cpp)
+
+           Write a program that asks the user to input two Boolean values and demonstrates
+the result of various bitwise operators on them.
