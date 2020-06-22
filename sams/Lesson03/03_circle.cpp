@@ -12,7 +12,7 @@ void CalculateAreaAndCircumference() {
 	float area{ radius * radius * PI };
 	float circumference{ 2 * radius * PI };
 
-	cout << "The area of the circle is: " << area << endl
+	cout << "The area of the circle is: " << area << endl \
 		<< "The circumference of the circle is: " << circumference << endl;
 }
 
