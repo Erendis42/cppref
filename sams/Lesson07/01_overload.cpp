@@ -22,10 +22,10 @@ int main()
 		double height = 0;
 		cin >> height;
 
-		cout << "The volume is: " << Volume(radius, height) << endl;
+		cout << "The volume of the cylinder is: " << Volume(radius, height) << endl;
 	}
 	else
-		cout << "The volume is: " << Volume(radius) << endl;
+		cout << "The volume of the sphere is: " << Volume(radius) << endl;
 }
 
 double Volume(double radius)
