@@ -16,7 +16,7 @@
         the result of various bitwise operators on them.
     </details>
     <details>
-        <summary>[Lesson 7](https://github.com/Erendis42/cppref/tree/master/sams/Lesson07)</summary>
+        <summary>[Lesson 7]</summary>
         [Listing 7.8 rewritten using a template](https://github.com/Erendis42/cppref/blob/master/sams/Lesson07/L0708_displayArray.cpp)
         Me knows how to template.
     </details>
