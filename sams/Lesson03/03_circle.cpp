@@ -7,6 +7,10 @@ inline int Square(int inputNum) {
 	return inputNum * inputNum;
 }
 
+inline int Double(int inputNum) {
+	return 2 * inputNum;
+}
+
 void CalculateAreaAndCircumference() {
 	unsigned int radius = 0;
 
@@ -14,7 +18,7 @@ void CalculateAreaAndCircumference() {
 	cin >> radius;
 
 	float area{ Square(radius) * PI };
-	float circumference{ 2 * radius * PI };
+	float circumference{ Double(radius) * PI };
 
 	cout << "The area of the circle is: " << area << endl \
 		<< "The circumference of the circle is: " << circumference << endl;
