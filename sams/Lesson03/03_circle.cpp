@@ -3,11 +3,11 @@ using namespace std;
 
 const float PI = 3.141592;
 
-inline int Square(int inputNum) {
+inline int SquareNum(int inputNum) {
 	return inputNum * inputNum;
 }
 
-inline int Double(int inputNum) {
+inline int DoubleNum(int inputNum) {
 	return 2 * inputNum;
 }
 
