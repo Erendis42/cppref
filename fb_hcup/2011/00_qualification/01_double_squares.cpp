@@ -40,7 +40,7 @@ void main(int argc, char* argv[]) {
 
                 // check with loop for power of each prime factor
 
-                // get subsets of 2 numbers with powers greater than or equal to 0
+                // get subsets of 2 numbers with powers greater than or equal to 2
 
                 // count the number of these subsets
 
