@@ -88,7 +88,7 @@ void ReadFile(std::ifstream& infile, int& numberOfIntegers, std::vector<int>& ve
     }
     else
     {
-        cout << "file can't be opened" << endl;
+        cout << "Unable to open file." << endl;
     }
 }
 
