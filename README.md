@@ -21,3 +21,13 @@ the result of various bitwise operators on them.
         - [Ecercise 1:](https://github.com/Erendis42/cppref/blob/master/sams/Lesson07/01_overload.cpp)
 
             Write overloaded functions that calculate the volume of a sphere and a cylinder.
+
+- [Facebook Hacker Cup practice on past rounds](https://github.com/Erendis42/cppref/blob/master/fb_hcup/)
+    
+    - 2011
+        
+        - Qualification round
+            
+            - [01 Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp)
+            
+                TODO: generate lookup table for better performance with large numbers
