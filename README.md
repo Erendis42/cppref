@@ -30,4 +30,4 @@ the result of various bitwise operators on them.
             
             - [01: Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp)
             
-                TODO: generate lookup table for better performance with large numbers
+                TODO: generate lookup table for better performance with large numbers ( [something something prime numbers](https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem) )
