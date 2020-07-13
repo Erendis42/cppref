@@ -28,6 +28,6 @@ the result of various bitwise operators on them.
         
         - Qualification round
             
-            - [01 Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp)
+            - [01: Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp)
             
                 TODO: generate lookup table for better performance with large numbers
