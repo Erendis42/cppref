@@ -22,7 +22,7 @@ the result of various bitwise operators on them.
 
             Write overloaded functions that calculate the volume of a sphere and a cylinder.
 
-- [Facebook Hacker Cup practice on past rounds](https://github.com/Erendis42/cppref/blob/master/fb_hcup/)
+- [Facebook Hacker Cup](https://github.com/Erendis42/cppref/blob/master/fb_hcup/)
     
     - 2011
         
@@ -31,3 +31,11 @@ the result of various bitwise operators on them.
             - [01: Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp)
             
                 TODO: generate lookup table for better performance with large numbers ( [something something prime numbers](https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem) )
+    - 2020
+        - Qualification round (PASSED)
+            - [Problem A: Travel Resctrictions](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2020/00_qualification/A_Travel_Restrictions.cpp)
+                
+                [Details](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/A)
+            - [Problem B: Alchemy](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2020/00_qualification/B_Alchemy.cpp)
+                
+                [Details](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/B)
