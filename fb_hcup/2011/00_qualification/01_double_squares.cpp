@@ -23,15 +23,14 @@ int main(int argc, char* argv[])
     for (int i = 0; i < numberOfIntegers; i++)
     {
         cout << "Case #" << i+1 << ": " << CountSquarePairs(input[i], primes) << endl;
-    }
-    
+    }    
 
     return 0;
 }
 
 int CountSquarePairs(int n, vector<int>& primes)
 {
-    if (n <= 1 ) {
+    if (n <= 2 ) {
         return 1;
         // 0 = 0^2 + 0^2
         // 1 = 0^2 + 1^2
