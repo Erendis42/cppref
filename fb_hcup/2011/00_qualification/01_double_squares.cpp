@@ -1,89 +1,59 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <map>
 
 using namespace std;
 
-int CountDoubleSquares(int n);
-vector<vector<int>> GenerateSubsets(int n);
-void ReadFile(ifstream& infile, int& numberOfIntegers, vector<int>& vectorOfIntegers);
+void ReadFile(ifstream& infile, int& numberOfIntegers, vector<int>& input);
+int CountSquarePairs(int n, vector<int>& primes);
 
 int main(int argc, char* argv[])
 {
-    //    if (argc == 2) {
-    //string filename = argv[1];
-    //string filename = ".\\double_squares_sample_input.txt";
-    //string filename = ".\\double_squares.txt";
-    string filename = ".\\double_squares_input.txt";
-    ifstream infile(filename);
-
-    //int input[] = {10, 25, 3, 0, 1};
-
-    int numberOfIntegers = 0;
+    int numberOfIntegers;
     vector<int> input;
+    vector<int> primes;
+
+    string filename = ".\\input.txt";
+    ifstream infile(filename);
 
     ReadFile(infile, numberOfIntegers, input);
 
-    for (int i = 0; i < 5; i++)
+    infile.close();    
+
+    for (int i = 0; i < numberOfIntegers; i++)
     {
-        if (input[i] == 0)
-        {
-            cout << "0" << endl;
-        }
-        else
-        {
-            cout << CountDoubleSquares(input[i]) << endl;
-        }
+        cout << "Case #" << i+1 << ": " << CountSquarePairs(input[i], primes) << endl;
     }
-
-    infile.close();
-
-    /*   }
-     else
-     {
-       cout << "Wrong number of parameters!" << endl;
-     }
-    */
+    
 
     return 0;
 }
 
-int CountDoubleSquares(int n)
+int CountSquarePairs(int n, vector<int>& primes)
 {
-    vector<vector<int>> subsets = GenerateSubsets(n);
-    int counter = 0;
-
-    for (vector<int> pair: subsets)
-    {
-        int a = pair[0];
-        int b = pair[1];
-
-        if (pow(a, 2) + pow(b, 2) == n)
-        {
-            //cout << a << "^2 + " << b << "^2 = " << n << endl;
-            counter++;
-        }
+    if (n <= 1 ) {
+        return 1;
+        // 0 = 0^2 + 0^2
+        // 1 = 0^2 + 1^2
     }
+    else {
+        int counter = 0;
 
-    return counter;
-}
-
-vector<vector<int>> GenerateSubsets(int n) {
-    vector<vector<int>> subsets;
-    vector<int> pair;
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = i+1; j < n+1; j++)
+        for (int i = 0; i <= sqrt(n); i++)
         {
-            pair.clear();
-            pair.push_back(i);
-            pair.push_back(j);
-            subsets.push_back(pair);
+            for (int j = i + 1; j <= sqrt(n); j++)
+            {
+                if ((i * i + j * j) == n)
+                {
+                    counter++;
+                }
+            }
         }
-    }
 
-    return subsets;
+        return counter;
+    }
+    return 0;
 }
 
 void ReadFile(ifstream& infile, int& numberOfIntegers, vector<int>& input)
@@ -98,6 +68,7 @@ void ReadFile(ifstream& infile, int& numberOfIntegers, vector<int>& input)
             }
             else
             {
+                numberOfIntegers = number;
                 first = false;
             }
         }
