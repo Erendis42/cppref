@@ -28,13 +28,13 @@ the result of various bitwise operators on them.
         
         - Qualification round
             
-            - [01: Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp)
+            - [01: Double Squares](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2011/00_qualification/01_double_squares.cpp) ✓
 
     - 2020
         - Qualification round (PASSED)
-            - [Problem A: Travel Resctrictions](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2020/00_qualification/A_Travel_Restrictions.cpp)
+            - [Problem A: Travel Resctrictions](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2020/00_qualification/A_Travel_Restrictions.cpp) ✓
                 
                 [Details](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/A)
-            - [Problem B: Alchemy](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2020/00_qualification/B_Alchemy.cpp)
+            - [Problem B: Alchemy](https://github.com/Erendis42/cppref/blob/master/fb_hcup/2020/00_qualification/B_Alchemy.cpp) ✓
                 
                 [Details](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/B)
