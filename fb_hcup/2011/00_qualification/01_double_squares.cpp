@@ -5,13 +5,12 @@
 using namespace std;
 
 void ReadFile(ifstream& infile, int& numberOfIntegers, vector<int>& input);
-int CountSquarePairs(int n, vector<int>& primes);
+int CountSquarePairs(int n);
 
 int main(int argc, char* argv[])
 {
     int numberOfIntegers;
     vector<int> input;
-    vector<int> primes;
 
     string filename = ".\\input.txt";
     ifstream infile(filename);
@@ -28,7 +27,7 @@ int main(int argc, char* argv[])
     return 0;
 }
 
-int CountSquarePairs(int n, vector<int>& primes)
+int CountSquarePairs(int n)
 {
     if (n <= 2 ) {
         return 1;
